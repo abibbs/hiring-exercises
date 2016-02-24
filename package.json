@@ -1,0 +1,23 @@
+{
+  "name": "identity-matcher",
+  "version": "1.0.0",
+  "description": "Identifies users by matching identifiers.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abibbs/hiring-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abibbs/hiring-exercises/issues"
+  },
+  "homepage": "https://github.com/abibbs/hiring-exercises#readme",
+  "dependencies": {
+    "babyparse": "^0.4.3",
+    "querystring": "^0.2.0"
+  }
+}

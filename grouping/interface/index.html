@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Identity Matcher</title>
+  </head>
+  <body>
+    <h1>Identity Matcher</h1>
+    <form method="post">
+      Select CSV file:
+    	<br>
+      <select name="csvFile">
+        <option value="input1.csv">input1.csv</option>
+        <option value="input2.csv">input2.csv</option>
+        <option value="input3.csv">input3.csv</option>
+      </select>
+      <br>
+      Search for:
+      <br>
+      <input type="radio" name="matchingIdentifier" value="sameEmail" checked> Same Email<br>
+      <input type="radio" name="matchingIdentifier" value="samePhoneNumber"> Same Phone Number<br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
