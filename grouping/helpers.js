@@ -167,7 +167,7 @@ var loadFile = function(filename,identifier) {
   				}
 
   				// check for two email fields
-  				if (results.data[0]['Email1']) {
+  				if (results.data[0]['Email1'] || results.data[0]['Email2']) {
   					twoEmailFields = true;
   				}
 
